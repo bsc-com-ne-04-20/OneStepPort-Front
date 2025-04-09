@@ -3,29 +3,42 @@
 /.pnp/
 /.pnp.js
 
-# Build output
-/build/
+# Vite cache and build artifacts
+/.vite/             # Vite's development cache
+/dist/              # Production build output
+/out/               # Alternative build output
+*.local             # Local environment files
 
 # Logs
 *.log
 npm-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Environment files
 .env
+.env.*.local
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.development
+.env.production
+.env.test
 
 # Dependency directories
-/.pnp/
-/.pnp.js
+.jest/
+.cache/
+.turbo/
 
-# IDE and editor folders
+# Editor and IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Operating system files
+# System files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Optional (if using these tools)
+.eslintcache
+.stylelintcache

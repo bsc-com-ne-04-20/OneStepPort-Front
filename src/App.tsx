@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Portfolio from './pages/Portfolio.tsx';  //collected
+//import Portfolio from './pages/Portfolio.tsx';  //collected
+// New (alias path)
+import Portfolio from '@/pages/Portfolio'
 //path is spoiling
 const App = () => {
   return (

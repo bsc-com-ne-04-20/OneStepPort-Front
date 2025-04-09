@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Portfolio from './pages/Portfolio';  //collected
-
+import Portfolio from './pages/Portfolio.tsx';  //collected
+//path is spoiling
 const App = () => {
   return (
     <Router>

@@ -1,3 +1,31 @@
+# Node modules
 /node_modules/
-/lib/
-.bsb.lock
+/.pnp/
+/.pnp.js
+
+# Build output
+/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
